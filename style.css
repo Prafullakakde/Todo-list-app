@@ -1,0 +1,152 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+body{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.028124999999999956) 0%, rgb(168, 168, 167) 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#todoContainer{
+    background: rgb(250, 249, 249);
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #01030a;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+#header {
+    margin: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px; 
+}
+
+#formContainer{
+    text-align: left;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+#inputBox {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+  
+#inputButton {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e60ea;
+}
+  
+#inputButton:hover {
+    background-color: #9eb7fd; 
+}
+
+#deleteAll:hover {
+    background-color: #ec8e8e; 
+}
+
+.deleteAll {
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e43434; 
+} 
+
+.delete {
+    color:crimson;
+    text-decoration : none;
+    cursor: pointer;
+} 
+  
+.edit{
+    color:blue;
+    text-decoration : none;
+    cursor: pointer;
+}
+.head { 
+    display: flex;
+    color: grey;
+}
+.htask {
+    flex-basis: 60%;
+    border-bottom: 1px solid grey; 
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 5px;
+}
+.hdate {
+    flex-basis: 20%;
+    border-bottom: 1px solid grey; 
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 5px;
+}
+.hdelete {
+    flex-basis: 10%;
+    border-bottom: 1px solid grey; 
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 5px;
+}
+.hedit {
+    flex-basis: 10%;
+    border-bottom: 1px solid grey; 
+    border-top: 1px solid grey;
+    padding: 5px;
+    
+}
+.task {
+    flex-basis: 60%;
+    border-bottom: 1px solid grey; 
+    border-right: 1px solid grey;
+    padding: 5px;
+    text-align: left;
+    overflow: auto;
+    display: flex;
+}
+.date {
+    flex-basis: 20%;
+    border-bottom: 1px solid grey; 
+    border-right: 1px solid grey;
+    padding: 5px;
+}
+.delete {
+    flex-basis: 10%;
+    border-bottom: 1px solid grey; 
+    border-right: 1px solid grey;
+    padding: 5px;
+}
+.edit {
+    flex-basis: 10%;
+    border-bottom: 1px solid grey; 
+    padding: 5px;
+    
+}
+.container {
+    display: flex;
+}

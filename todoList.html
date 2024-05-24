@@ -1,0 +1,51 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="todoContainer">
+            <div id="header">
+                <h2>To Do List</h2>
+            </div>
+            <!--input box-->
+            <div id="formContainer">
+                <!--<label for="inputBox">Enter Task:</label>-->
+                <div>
+                    <input type="text" id="inputBox" name="inputBox" class="inputItem" placeholder="Add Task">
+                
+                <!--input button-->
+                
+                    <button id="inputButton" onclick="addTask()">Add</button>
+                </div>
+                <div id="deleteAll" class="deleteAll">Delete All</div>
+            </div>
+            
+        
+            <!--Task List-->
+            <div id="todoList">
+                <!--<h2>Task List</h2>-->
+                <div>
+                    <div class="head">
+                        <div class="htask">Task</div>
+                        <div class="hdate">Created Date</div>
+                        <div class="hdelete">Delete</div>
+                        <div class="hedit">Edit</div>
+                    </div>
+                    <div id="list"></div>
+                </div>
+            </div>
+            <hr>
+            <!--Task List Counter-->
+            <div class="counterContainer">
+                <div id="taskCounters">
+                    Completed: <span id="completedCounter">0</span>  | Incompleted: 
+                    <span id="incompletedCounter">0</span>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
